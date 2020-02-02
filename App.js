@@ -39,8 +39,9 @@ export default function App() {
       >
         
         <Text style={styles.word}>What's up slappers!!!</Text>
-        <Text style={styles.word}>Slap down to learn new epic word NOW!!!</Text>
+        <Text style={styles.word}>Slap down for EPIC word reveal!!!</Text>
         <Text style={styles.word}>{word}</Text>
+        <Text style={styles.reveal}>Secret word reveal at 5M downloads!!!</Text>
 
       </ScrollView>
     </SafeAreaView>
@@ -60,5 +61,8 @@ const styles = StyleSheet.create({
   },
   word: {
     color: "#52E99E"
+  },
+  reveal: {
+    color: "#fc0303"
   },
 });
